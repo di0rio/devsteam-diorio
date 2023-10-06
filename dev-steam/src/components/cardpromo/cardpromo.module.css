@@ -1,0 +1,126 @@
+/* .card div {
+  color: white;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+} */
+
+.card {
+  display: flex;
+  gap: 10px;
+}
+
+.card img{
+  border-radius: 3px;
+}
+
+.promo1 {
+  width: 250px;
+  height: 463px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #19587b 0%, #2b87ae 100%);
+  border-radius: 3px;
+  /* align-items: end; */
+}
+
+.desc {
+  background: #4c6b22;
+  display: flex;
+  width: 72px;
+  height: 35px;
+  margin-top: 6px;
+  margin-left: 15px;
+  padding: 10px 8px;
+  border-radius: 8px;
+}
+
+.card div:nth-of-type(1) p {
+  color: #beeb14;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  padding: 2px 8px;
+}
+
+.preco {
+  background: #344654;
+  width: 142px;
+  height: 37px;
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+
+.preco h6 {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+  margin-left: 7em;
+}
+
+.preco h3 {
+  color: #beeb14;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 4.5em;
+}
+
+.card div:nth-of-type(1) strong {
+  padding: 8px;
+  color: white;
+  font-weight: 700px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.btn {
+  background: #549300;
+  width: 222px;
+  height: 38px;
+  border-radius: 10px;
+  margin-left: 1em;
+  margin-top: 25px;
+  flex-shrink: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn h4 {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #4c6b22;
+}
+
+/* /* .desconto {
+  background: #4c6b22;
+  width: 80px;
+  height: 37px;
+  z-index: 50;
+} */
+
+/* .desconto p {
+  color: #beeb14;
+  display: flex;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+} */

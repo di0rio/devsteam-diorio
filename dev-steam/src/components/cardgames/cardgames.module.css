@@ -1,0 +1,50 @@
+.cardgame {
+  display: flex;
+  gap: 2em;
+
+}
+
+.cardgame img {
+  border-radius: 3px;
+}
+
+.cardgame {
+  width: 770px;
+  height: 145px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #2983aa;
+}
+.infos strong {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 2px 22px; 
+  position: absolute;
+  /* top: 0; */
+  margin-top: 10px; 
+}
+
+.infos h4 {
+  color: #c7c7c7;
+  display: flex;
+  font-size: 16px;
+  margin-top: 10px; 
+
+
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.infos p {
+  color: #beeb14;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+
+}
+

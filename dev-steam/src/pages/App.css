@@ -1,0 +1,45 @@
+body {
+  background: #1b2838;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  display: flex;
+  gap: 55px;
+}
+
+.Title {
+  padding: 1em 0;
+  color: #fff;
+  width: 800px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  /* margin-right: auto; */
+}
+
+.Title2 {
+  padding: 1em 0;
+  color: #fff;
+  width: 800px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+
+.CardCs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
